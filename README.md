@@ -15,6 +15,7 @@
 ## 文章
 
 1. [chapter1-getting-started MyBatis专题（一）-入门](http://oopsguy.com/2017/07/21/mybatis-topic-1-getting-started/)
+2. [chapter2-mapper MyBatis专题（二）-映射文件](http://oopsguy.com/2017/07/22/mybatis-topic-2-mappper/)
 
 ## 帮助
 
