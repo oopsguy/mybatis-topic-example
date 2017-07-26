@@ -5,6 +5,8 @@
     <settings>
         <!--开启日志并使用标准输入输出日志实现-->
         <setting name="logImpl" value="STDOUT_LOGGING" />
+        <!--启用主键获取，部分数据库不支持-->
+        <setting name="useGeneratedKeys" value="true" />
     </settings>
 
     <environments default="development">
@@ -16,7 +18,7 @@
                 <!--数据库驱动-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <!--JDBC连接字符串-->
-                <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis_topic_chapter2"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis_topic_chapter3"/>
                 <!--数据库用户名-->
                 <property name="username" value="root"/>
                 <!--数据库密码-->
@@ -27,8 +29,5 @@
 
     <!--需要加载的mapper映射文件-->
     <mappers>
-        <mapper resource="mapper/UserMapper.xml"/>
-        <mapper resource="mapper/UserBeanMapper.xml"/>
-        <mapper resource="mapper/BeanResultMapper.xml"/>
     </mappers>
 </configuration>
