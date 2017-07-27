@@ -29,5 +29,8 @@
 
     <!--需要加载的mapper映射文件-->
     <mappers>
+        <mapper resource="mapper/UserMapper.xml" />
+        <mapper resource="mapper/UserInterfaceMapper.xml"/>
+        <mapper class="com.oopsguy.mybatistopic.dao.AnnotationDao" />
     </mappers>
 </configuration>

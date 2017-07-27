@@ -16,6 +16,7 @@
 
 1. [chapter1-getting-started MyBatis专题（一）-入门](http://oopsguy.com/2017/07/21/mybatis-topic-1-getting-started/)
 2. [chapter2-mapper MyBatis专题（二）-映射文件](http://oopsguy.com/2017/07/22/mybatis-topic-2-mappper/)
+3. [chapter3-integrating-dao MyBatis专题（三）-整合DAO](http://oopsguy.com/2017/07/27/mybatis-topic-3-integrating-data-access-layer/)
 
 ## 帮助
 
