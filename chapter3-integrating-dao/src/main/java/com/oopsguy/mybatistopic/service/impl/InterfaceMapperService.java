@@ -15,7 +15,7 @@ import java.util.List;
 public class InterfaceMapperService implements Service {
 
     private SqlSessionFactory sessionFactory = null;
-    UserDao userDao = null;
+    private UserDao userDao = null;
 
     public InterfaceMapperService() {
         this.sessionFactory = MyBatisUtil.getSqlSessionFactory();

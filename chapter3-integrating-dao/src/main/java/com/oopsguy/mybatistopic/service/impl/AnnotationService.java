@@ -1,7 +1,6 @@
 package com.oopsguy.mybatistopic.service.impl;
 
 import com.oopsguy.mybatistopic.dao.AnnotationDao;
-import com.oopsguy.mybatistopic.dao.UserDao;
 import com.oopsguy.mybatistopic.entity.User;
 import com.oopsguy.mybatistopic.service.Service;
 import com.oopsguy.mybatistopic.util.MyBatisUtil;
@@ -16,7 +15,7 @@ import java.util.List;
 public class AnnotationService implements Service {
 
     private SqlSessionFactory sessionFactory = null;
-    AnnotationDao userDao = null;
+    private AnnotationDao userDao = null;
 
     public AnnotationService() {
         this.sessionFactory = MyBatisUtil.getSqlSessionFactory();
