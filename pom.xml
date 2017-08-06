@@ -11,6 +11,7 @@
         <module>chapter1-getting-started</module>
         <module>chapter2-mapper</module>
         <module>chapter3-integrating-dao</module>
+        <module>chapter4-dynamic-sql</module>
     </modules>
     <packaging>pom</packaging>
 
